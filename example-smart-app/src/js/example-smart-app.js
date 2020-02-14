@@ -18,7 +18,7 @@
                         $or: ['http://loinc.org|8302-2', 'http://loinc.org|8462-4',
                               'http://loinc.org|8480-6', 'http://loinc.org|2085-9',
                               'http://loinc.org|2089-1', 'http://loinc.org|55284-4',
-                              'http://loinc.org|29463-7']
+                              'http://loinc.org|29463-7', 'http://loinc.org|3141-9']
                       }
                     }
                   });
@@ -83,6 +83,7 @@
       birthdate: {value: ''},
       height: {value: ''},
       weight: {value: ''},
+      mweight: {value: ''},
       systolicbp: {value: ''},
       diastolicbp: {value: ''},
       ldl: {value: ''},
@@ -127,6 +128,7 @@
     $('#birthdate').html(p.birthdate);
     $('#height').html(p.height);
     $('#weight').html(p.weight);
+    $('#mweight').html(p.mweight);
     $('#systolicbp').html(p.systolicbp);
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
